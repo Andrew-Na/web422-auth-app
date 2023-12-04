@@ -1,7 +1,6 @@
 {
   "name": "auth-server",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,15 @@
     "mongoose": "^8.0.1",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-Na/web422-auth-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andrew-Na/web422-auth-app/issues"
+  },
+  "homepage": "https://github.com/Andrew-Na/web422-auth-app#readme",
+  "description": ""
 }
