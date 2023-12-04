@@ -61,6 +61,7 @@ module.exports.registerUser =  function (userData) {
 
 module.exports.checkUser = function (userData) {
     return new Promise(function (resolve, reject) {
+        
         User.find({ userName: userData.userName })
         .limit(1)
         .exec()
