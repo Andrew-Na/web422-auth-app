@@ -48,7 +48,9 @@ app.use(passport.initialize());
 
 app.use(cors());
 app.use(express.json());
-
+app.get("/api/", (req, res) => {
+   res.json({ "message": "login successful"});
+});
 app.post("/api/login", (req, res) => {
     userService.checkUser(req.body)
         .then((user) => {
